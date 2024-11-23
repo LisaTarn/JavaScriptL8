@@ -53,16 +53,20 @@ let student1 = {
     course: ["English ", "Math ", "French ", "Science "],
     addCourse: function(newCourse){
         student1.course.push(newCourse);
+        return course;
     },
    sumCourse: function(){
-    let sum = course.length;
-    return sum
+    return course.length;
    }
 
 };
 
 student1.addCourse(" Philosophy");
 student1.addCourse("Algebra");
+console.log(student1);
 console.log (student1.sumCourse());
+
+// Bonus Task
+
 
 
