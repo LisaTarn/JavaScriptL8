@@ -24,3 +24,11 @@ let jsonObj = JSON.parse(jsonString);
 console.log(jsonObj);
 
 console.log(student);
+
+// Part 3 Using Destructuring
+
+let scores = [85, 92, 78, 90];
+let [first, second, third, fourth] = scores;
+console.log(first);
+console.log(second);
+
