@@ -32,3 +32,16 @@ let [first, second, third, fourth] = scores;
 console.log(first);
 console.log(second);
 
+// Part 4 The Spread Operator
+
+let clonedStudent = {...student};
+
+let modifiedClonedStudent = {...clonedStudent, graduationYear: 2025};
+console.log(modifiedClonedStudent);
+
+let { name, age, enrolled, course } = student;
+let newCourses = ["Gym", "Programming", "Philosophy"];
+let combinedCourses = [...course, ...newCourses];
+console.log(combinedCourses);
+
+
