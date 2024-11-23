@@ -1,3 +1,5 @@
+// Part 1 Understanding and Creating Objects
+
 let student = {
     name: "Eli",
     age: 40,
@@ -12,3 +14,13 @@ let student = {
  console.log(student.age);
  student.greet();
 
+ // Part 2 Working with JSON
+
+let jsonString = JSON.stringify(student);
+console.log(jsonString);
+
+let jsonObj = JSON.parse(jsonString);
+
+console.log(jsonObj);
+
+console.log(student);
