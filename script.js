@@ -44,4 +44,25 @@ let newCourses = ["Gym", "Programming", "Philosophy"];
 let combinedCourses = [...course, ...newCourses];
 console.log(combinedCourses);
 
+// Part 5: Object Methods
+
+let student1 = {
+    name: "Eli",
+    age: 40,
+    enrolled: true,
+    course: ["English ", "Math ", "French ", "Science "],
+    addCourse: function(newCourse){
+        student1.course.push(newCourse);
+    },
+   sumCourse: function(){
+    let sum = course.length;
+    return sum
+   }
+
+};
+
+student1.addCourse(" Philosophy");
+student1.addCourse("Algebra");
+console.log (student1.sumCourse());
+
 
