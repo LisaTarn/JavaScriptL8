@@ -64,9 +64,15 @@ let student1 = {
 student1.addCourse(" Philosophy");
 student1.addCourse("Algebra");
 console.log(student1);
-console.log (student1.sumCourse());
+console.log(student1.sumCourse());
 
 // Bonus Task
+
+average = scores.reduce(function(sum, value) {
+    return sum + value;
+}, 0) / scores.length;
+
+console.log(average);
 
 
 
