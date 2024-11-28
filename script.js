@@ -53,10 +53,11 @@ let student1 = {
     course: ["English ", "Math ", "French ", "Science "],
     addCourse: function(newCourse){
         student1.course.push(newCourse);
-        return course;
+        return this.course;
     },
    sumCourse: function(){
-    return course.length;
+    return this.course.length;
+    
    }
 
 };
