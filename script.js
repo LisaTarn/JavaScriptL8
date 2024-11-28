@@ -57,13 +57,13 @@ let student1 = {
     },
    sumCourse: function(){
     return this.course.length;
-    
-   }
 
+   }
 };
 
 student1.addCourse(" Philosophy");
 student1.addCourse("Algebra");
+student1.addCourse("Phys ed");
 console.log(student1);
 console.log(student1.sumCourse());
 
